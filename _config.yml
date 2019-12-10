@@ -99,4 +99,4 @@ theme: landscape
 deploy:
   type: 'git'
   repo: https://github.com/Thief-of-DarkShire/Thief-of-DarkShire.github.io.git
-  branch: gh-pages
+  branch: master
