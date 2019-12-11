@@ -11,8 +11,8 @@ script:
 after_script:
   - cd ./public
   - git init
-  - git config user.name "ch4o5"
-  - git config user.email "li_dongyun@outlook.com"
+  - git config user.name "DongyunLee"
+  - git config user.email "dongyunli619@gmail.com"
   - git add .
   - git commit -m "Update docs"
   - git push --force --quiet "https://${GH_TOKEN}@github.com/Thief-of-DarkShire/Thief-of-DarkShire.github.io.git" master:master
