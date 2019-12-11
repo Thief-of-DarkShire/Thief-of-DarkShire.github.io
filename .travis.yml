@@ -1,14 +1,14 @@
 sudo: false
 language: node_js
 node_js:
-  - 10 # use nodejs v10 LTS
+  - stable
 cache: node_modules
 branches:
   only:
     - dev # build dev branch only
 script:
-  - hexo generate # generate static files
+  - hexo g # generate static files
 after_script:
   - git config user.name "ch4o5"
   - git config user.email "li_dongyun@outlook.com"
-  - hexo deploy
+  - hexo d
