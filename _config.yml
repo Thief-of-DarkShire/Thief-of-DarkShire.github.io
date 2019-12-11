@@ -98,5 +98,5 @@ theme: landscape
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: 'git'
-  repo: https://a59e4c7c5218e11f22bc8b1a84ff051320f9636a@github.com/Thief-of-DarkShire/Thief-of-DarkShire.github.io.git
+  repo: https://github.com/Thief-of-DarkShire/Thief-of-DarkShire.github.io.git
   branch: master
